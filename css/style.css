@@ -788,11 +788,6 @@ textarea::placeholder {
     opacity: 0.5;
 }
 
-.contactFormRight:hover label::before {
-    background: url("../images/form_ok.jpg") no-repeat center;
-    opacity: 0.5;
-}
-
 .contactFormRight label::after {
     border: 1px solid #27c7ab;
     background: url("../images/form_ok.jpg") no-repeat center;
@@ -842,6 +837,11 @@ textarea:focus {
 }
 
 /*HOVERS*/
+.contactFormRight:hover label::before {
+    background: url("../images/form_ok.jpg") no-repeat center;
+    opacity: 0.5;
+}
+
 .contactButton:hover {
     box-shadow: 2px 3px 6px grey;
 }
