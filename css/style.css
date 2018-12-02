@@ -652,6 +652,10 @@ img.black_chair {
 .pricingBox:hover .pricingPrice {
     border: 1px solid #27c7ab;
     box-shadow: 2px 3px 6px grey;
+    height: 140px;
+    width: 140px;
+    left: calc(50% - 70px);
+    top: 65px;
 }
 .pricingBox:hover p:nth-of-type(1) sup {
     color: #27c7ab;
@@ -768,7 +772,7 @@ textarea::placeholder {
 
 .contactFormRight label::before,
 .contactFormRight label::after {
-    border: 1px solid #27c7ab;
+    border: 1px solid #8de0d2;
     content: "";
     display: block;
     left: 0;
@@ -776,6 +780,17 @@ textarea::placeholder {
     position: absolute;
     width: 48px;
     top: 0;
+
+    transition: 0.2s all;
+}
+
+.contactFormRight label::before {
+    opacity: 0.5;
+}
+
+.contactFormRight:hover label::before {
+    background: url("../images/form_ok.jpg") no-repeat center;
+    opacity: 0.5;
 }
 
 .contactFormRight label::after {
