@@ -366,6 +366,7 @@ img.black_chair {
 }
 
 .product3 {
+    height: auto;
     padding: 20px;
     color: gray;
 }
