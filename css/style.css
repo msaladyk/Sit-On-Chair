@@ -452,11 +452,11 @@ img.black_chair {
 
 .circle::before {
     content: "";
-    width: 25px;
-    height: 25px;
+    width: 26px;
+    height: 26px;
     border-radius: 40px;
-    top: calc(50% - 12.5px);
-    left: calc(50% - 12.5px);
+    top: calc(50% - 13px);
+    left: calc(50% - 13px);
     position: absolute;
     background-color: #d6d5d5;
 
@@ -470,7 +470,6 @@ img.black_chair {
     margin-top: 27px;
     text-align: center;
     font-weight: bold;
-
     transition: 0.2s all;
 }
 
