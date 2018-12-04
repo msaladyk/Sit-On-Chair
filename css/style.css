@@ -655,6 +655,8 @@ img.black_chair {
 .pricingBox:hover {
     border: 3px solid #27c7ab;
     background: #27c7ab;
+    bottom: 10px; /* lift up */
+
 }
 .pricingBox:hover .circle {
     border: 3px solid #27c7ab;
