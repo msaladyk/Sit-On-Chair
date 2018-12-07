@@ -269,7 +269,7 @@ header {
     left: 5px;
 }
 
-img.black_chair {
+img.picture {
     height: 55%;
     width: 55%;
     float: left;
@@ -278,7 +278,9 @@ img.black_chair {
     left: -30px;
 }
 
-.gallery__text {
+
+.gallery__text
+{
     display: block;
     float: right;
     text-align: center;
@@ -706,6 +708,7 @@ img.black_chair {
 .pricingButton:hover {
     box-shadow: 2px 3px 6px grey;
 }
+
 .pricingButton:hover a {
     font-weight: 900;
 }
@@ -902,7 +905,16 @@ footer p:last-of-type span {
     margin-top: -11px;
 }
 
-.social li {
-    display: inline-block;
-}
 
+/*APP.JS*/
+/*.social li {*/
+    /*display: inline-block;*/
+/*}*/
+
+/*.slider {*/
+    /*display: none;*/
+/*}*/
+
+/*.slider .visible {*/
+    /*display: inline-block;*/
+/*}*/
