@@ -906,15 +906,15 @@ footer p:last-of-type span {
 }
 
 
-/*APP.JS*/
-/*.social li {*/
-    /*display: inline-block;*/
-/*}*/
+/*!*APP.JS*!*/
+.slider {
+    list-style: none;
+}
 
-/*.slider {*/
-    /*display: none;*/
-/*}*/
+.slider li{
+    display: none;
+}
 
-/*.slider .visible {*/
-    /*display: inline-block;*/
-/*}*/
+.slider .visible {
+    display: block;
+}
