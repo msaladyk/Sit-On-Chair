@@ -1,4 +1,4 @@
-
+// SLIDER
 var taskList = document.querySelectorAll('.gallery__picture li');
 console.log(taskList);
 
@@ -8,7 +8,7 @@ var nextBtn = document.querySelector('.nav-button.right');
 
 var counter = 0;
 
-
+// NEXT BUTTON
 function nextPicture(ev) {
     ev.preventDefault();
 
@@ -23,6 +23,7 @@ function nextPicture(ev) {
     taskList[counter].classList.add('visible');
 }
 
+// PREVIOUS BUTTON
 function prevPicture(ev) {
     ev.preventDefault();
 
@@ -40,47 +41,3 @@ function prevPicture(ev) {
 taskList[counter].classList.add('visible');
 nextBtn.addEventListener('click', nextPicture);
 prevBtn.addEventListener('click', prevPicture);
-
-
-//
-// // 1. lapanie zmiennych
-//
-// var listElements = document.querySelectorAll('li');
-// var nextBtn = document.querySelector('#nextPicture');
-// var prevBtn = document.querySelector('#prevPicture')
-// var counter = 0;
-//
-// // 2. funkcje
-//
-// function nextPicture(ev) {
-//     ev.preventDefault();
-//
-//     listElements[counter].classList.remove('visible');
-//
-//     if(counter === listElements.length - 1) {
-//         counter = 0;
-//     } else {
-//         counter++;
-//     }
-//
-//     listElements[counter].classList.add('visible');
-// }
-//
-// function prevPicture(ev) {
-//     ev.preventDefault();
-//
-//     listElements[counter].classList.remove('visible');
-//
-//     if(counter === 0) {
-//         counter = listElements.length - 1;
-//     } else {
-//         counter--;
-//     }
-//
-//     listElements[counter].classList.add('visible');
-// }
-//
-// //3. Przebieg programu
-// listElements[counter].classList.add('visible');
-// nextBtn.addEventListener('click', nextPicture);
-// prevBtn.addEventListener('click', prevPicture);
