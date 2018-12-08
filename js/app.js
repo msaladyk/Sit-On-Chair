@@ -41,3 +41,4 @@ function prevPicture(ev) {
 taskList[counter].classList.add('visible');
 nextBtn.addEventListener('click', nextPicture);
 prevBtn.addEventListener('click', prevPicture);
+// SLIDER END
