@@ -991,7 +991,6 @@ footer p:last-of-type span {
 
 }
 
-
 .checkbox {
     position: relative;
     padding: 30px 30px 30px 0;
@@ -1016,7 +1015,8 @@ footer p:last-of-type span {
     cursor: pointer;
 }
 
-.checkbox label::before, .checkbox label::after {
+.checkbox label::before,
+.checkbox label::after {
     border: 1px solid #27c7ab;
     content: "";
     display: block;
@@ -1026,6 +1026,16 @@ footer p:last-of-type span {
     width: 48px;
     top: 0;
 }
+
+.checkbox label::before {
+    opacity: 0.5;
+}
+
+.checkbox:hover  label::before {
+    background: url("../images/form_ok.jpg") no-repeat center;
+    opacity: 0.5;
+}
+
 .checkbox label::after {
     background: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20preserveAspectRatio%3D%22xMidYMid%22%20width%3D%2233.875%22%20height%3D%2233%22%20viewBox%3D%220%200%2033.875%2033%22%3E%0A%20%20%3Cpath%20d%3D%22M9.470%2C15.209%20L14.061%2C24.104%20C14.061%2C24.104%2021.522%2C6.026%2033.287%2C-0.000%20C33.000%2C4.304%2031.852%2C8.035%2033.861%2C12.626%20C28.696%2C13.774%2018.078%2C26.687%2014.635%2C33.000%20C9.756%2C26.974%204.017%2C22.382%20-0.000%2C20.948%20L9.470%2C15.209%20Z%22%20fill%3D%22%2327c7ab%22/%3E%0A%3C/svg%3E%0A") no-repeat center;
     border: 0;
@@ -1089,8 +1099,15 @@ footer p:last-of-type span {
     margin-left: 29px;
     border-radius: 8px;
     text-decoration: none;
+    transition: 0.3s all;
 
     float:right;
+}
+
+.green_button:hover {
+    box-shadow: 2px 3px 6px grey;
+    opacity: 0.99;
+    font-weight: 900;
 }
 
 .panel_left {
@@ -1165,8 +1182,6 @@ footer p:last-of-type span {
     background-color: white;
     border: 1px solid #ccc;
     width: 302px;
-    /*padding-left: 15px;*/
-    /*padding-bottom: 10px;*/
     list-style: none;
     margin: 0;
     left: 0;
