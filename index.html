@@ -39,22 +39,25 @@
     </div>
 </header>
 
-<section class="gallery-background" id="gallery">
-    <div class="main__width">
-        <div class="gallery">
-            <div class="nav-button left"><a href="#">&#60;</a></div>
-            <div class="slider">
-                <ul class="gallery__picture">
-                    <li><img id="picture1" alt="black chair" src="images/black_chair.png"></li>
-                    <li><img id="picture2" alt="orange chair" src="images/orange_chair.png"></li>
-                </ul>
+<section id="gallery">
+    <div class="gallery-background">
+        <div class="main__width">
+            <div class="gallery">
+                <div class="nav-button left"><a href="#">&#60;</a></div>
+                <div class="slider">
+                    <ul class="gallery__picture">
+                        <li><img id="picture1" alt="black chair" src="images/black_chair.png"></li>
+                        <li><img id="picture2" alt="orange chair" src="images/orange_chair.png"></li>
+                        <li><img id="picture3" alt="red chair" src="images/red_chair.png"></li>
+                    </ul>
+                </div>
+                <div class="gallery__text">
+                    <h3>SIT <span>ON</span> OUR <span>CHAIR</span></h3>
+                    <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper Suspendisse e pellentesque dui, non felis. Maecenas alesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
+                    <a href="#" class="gallery__button">LEARN MORE</a>
+                </div>
+                <div class="nav-button right"><a href="#">&#62;</a></div>
             </div>
-            <div class="gallery__text">
-                <h3>SIT <span>ON</span> OUR <span>CHAIR</span></h3>
-                <p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper Suspendisse e pellentesque dui, non felis. Maecenas alesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna.</p>
-                <a href="#" class="gallery__button">LEARN MORE</a>
-            </div>
-            <div class="nav-button right"><a href="#">&#62;</a></div>
         </div>
     </div>
 </section>
@@ -116,6 +119,81 @@
             <div class="pricingItem4">Designer tips</div>
             <div class="pricingButton"><a href="#">Sign up</a></div>
         </div>
+    </div>
+</section>
+
+<section class="application ">
+    <div class="main__width" id="app__Flex">
+        <section class="choice_part inline">
+            <div>
+                <h3>CREATE YOUR CHAIR</h3>
+                <span class="green_bell"></span>
+            </div>
+
+            <div class="form">
+                <div class="drop_down_list">
+                    <span class="list_label">Choose model</span>
+                    <span class="list_arrow"></span>
+                    <ul class="list_panel">
+                        <li>Clair</li>
+                        <li>Margarita</li>
+                        <li>Selena</li>
+                    </ul>
+                </div>
+                <div class="drop_down_list">
+                    <span class="list_label">Choose color</span>
+                    <span class="list_arrow"></span>
+                    <ul class="list_panel">
+                        <li>Czerwony</li>
+                        <li>Czarny</li>
+                        <li>Pomarańczowy</li>
+                    </ul>
+                </div>
+                <div class="drop_down_list">
+                    <span class="list_label">Choose material</span>
+                    <span class="list_arrow"></span>
+                    <ul class="list_panel">
+                        <li>Tkanina</li>
+                        <li>Skóra</li>
+                    </ul>
+                </div>
+                <div class="checkbox check-box">
+                    <input type="checkbox" id="transport" data-transport-price="200">
+                    <label for="transport">Shipping</label>
+                </div>
+                <!--<div class="checkbox"></div>-->
+                <!--<span class="list_label inline_text">Transport</span>-->
+            </div>
+        </section>
+
+        <section class="image_part inline">
+            <img src="images/red_chair.png">
+        </section>
+
+        <section class="summary_part inline">
+            <div class="align_right">
+                <h3>SUMMARY</h3>
+                <span class="green_bell"></span>
+            </div>
+
+            <div class="summary_panel">
+                <div class="panel_left">
+                    <h4 class="title">Your chair</h4>
+                    <span class="color"></span>
+                    <span class="pattern"></span>
+                    <span class="transport"></span>
+                </div>
+                <div class="panel_right">
+                    <h4 class="title value"></h4>
+                    <span class="color value"></span>
+                    <span class="pattern value"></span>
+                    <span class="transport value"></span>
+                </div>
+                <div class="sum_label">TOTAL</div>
+                <div class="sum"><strong></strong></div>
+            </div>
+            <a href="" class="green_button">Order now</a>
+        </section>
     </div>
 </section>
 

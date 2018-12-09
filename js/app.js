@@ -1,6 +1,5 @@
 // SLIDER
 var taskList = document.querySelectorAll('.gallery__picture li');
-console.log(taskList);
 
 var prevBtn = document.querySelector('.nav-button.left');
 
