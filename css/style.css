@@ -173,7 +173,7 @@ header {
     max-height: 0;
     opacity: 0.01;
     visibility: hidden;
-    transition: 0.8s all;
+    transition: 0.3s all;
     margin-top: 7px;
 }
 
