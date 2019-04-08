@@ -1,5 +1,5 @@
 # Sit-On-Chair
-This is my first landing page. It was the final task of the first module on a course I took at Coders Lab.
+This is my first landing page. It was the final task of the first module of a course I took at Coders Lab.
 
 #### Preview:
 https://msaladyk.github.io/Sit-On-Chair/
